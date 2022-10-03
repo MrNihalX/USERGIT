@@ -7,10 +7,10 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", None) 
-API_HASH = os.environ.get("API_HASH", None) 
-STRING = os.environ.get("STRING", None) 
-MONGO_URL = os.environ.get("MONGO_URL", None)
+API_ID = os.environ.get("API_ID", "9446413") 
+API_HASH = os.environ.get("API_HASH", "4c95553961992127f99077eb80d3c580") 
+STRING = os.environ.get("STRING", "BQA0yEhYPpkrcksVVL9OfRswVokTA0SPUiqlIfoQH61MlpP5l3QmF2vxmlYK1a-1Ufgsb9oEE4OIAdCCD6y4-rn0hgau24T1sPjn76Ai9Jq5rhau8nqzGoof5v-HNL-7Z7N6KqNHNsAF9KiCDw5YOQ4cb38skBGwhX31aLkYICyRYmCqR2Nyvludz5_CxwIBsNRiULsLUGIpzVQjmlZV1tEwBkR6Hz9MfOpVE2_RGjDk5Rgp4yYI3DyJJykIKFXF88WtEbPWMgR3kzqMOajJVqsZC2pjcfn8hr5r8YDyI6YQZ7INLqS6SC7lw8j_-MgJ2XalHBNG0lyFR5iwGY7XryIhdLp1wAA") 
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://chat18plus:hacks28@cluster0.rtrlv7b.mongodb.net/?retryWrites=true&w=majority")
 
 
 bot = Client(STRING, API_ID, API_HASH)
